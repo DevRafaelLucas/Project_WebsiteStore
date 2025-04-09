@@ -1,5 +1,91 @@
+/* corpo do filtro todo*/
 .filtro {
     float: left;
-    width: 33%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Titulo "Filtros" */
+.tituloFiltros {
+    margin-left: 50px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 1º Conjunto de 2 filtros */
+.conjunto1filtroAlgodao{
+    display: flex;
+    margin-left: 5%;
+}
+
+/* 2º Conjunto de 2 filtros */
+.conjunto2filtroAlgodao{
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+/* filtro "algodão x" em si */
+#filtroAlgodao {
+    background-color: rgb(177, 177, 177);
+    color: black;
+    border-radius: 5px;
+    padding: 3%;
+    font-weight: bold;
+    text-align: center;
+    margin: 3%;
+    width: 100%;
+}
+
+/* Barra de seleção de dinheiro */
+.barraDeDinheiro {
+    margin: 20px;
+}
+
+
+/* Filtro Tamanho */
+
+
+/* Titulo "Tamanhos"*/
+.filtroTamanho h1{
+    margin-left: 50px;
+    margin-bottom: 10%;
+}
+
+/* selecao PlusSize do filtro Tamanho*/
+.filtroTamanho #selecaoPlusSize {
+    display:flex;
+    flex-direction: row;
+}
+
+/* filtro "Cores" */
+
+/* Titulo "Cores" */
+.filtroCores h1{
+    margin-left: 50px;
+    margin-bottom: 10%;
+}
+
+/* selecao PlusSize do filtro Cores*/
+.filtroCores #selecaoPlusSize {
+    display:flex;
+    flex-direction: row;
+}
+
+/* filtro "Tecidos" */
+
+/* Titulo Tecidos */
+.filtroTecidos h1{
+    margin-left: 50px;
+    margin-bottom: 10%;
+}
+
+.filtroTecidos p{
+    margin-left: 10px;
+}
+
+/* selecao PlusSize do filtro Tecidos*/
+.filtroTecidos #selecaoPlusSize {
+    display:flex;
+    flex-direction: row;
+}
