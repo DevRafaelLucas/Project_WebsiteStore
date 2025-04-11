@@ -2,15 +2,15 @@
 
 /* Faz com que o main ocupe espaço full */
 main {
-  display: flex; 
+  display: flex;
   width: 100%;
 }
 
 /* Seção de filtros */
 .filtro {
-  width: 20%;
+  width: 300px;
   padding: 20px;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 
 /* Seção de produtos */
@@ -109,9 +109,11 @@ main {
 
 /* Botão filtrar */
 #botaoFiltrar {
-  margin: 20px;
-  padding: 10px 20px;
+  margin: 20px 0px 0px 50px;
+  padding: 10px 30px;
   cursor: pointer;
+  background-color: black;
+  color: white;
 }
 
 /* !!!Seção de Produtos!!! */
@@ -149,25 +151,27 @@ main {
 
 /* Card do produto */
 .cardProduto {
-  border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   text-align: center;
 }
 
+/* imagem do card do produto */
 .cardProduto img {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
 
+/* titulo do card do produto */
 .cardProduto h3 {
   margin-bottom: 5px;
   font-size: 1.1rem;
 }
 
+/* paragrafo do card do produto */
 .cardProduto p {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
