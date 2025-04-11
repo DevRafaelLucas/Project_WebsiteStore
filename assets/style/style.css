@@ -1,6 +1,6 @@
 /* !!!Layout principal!!! */
 
-/* Faz com que o main ocupe espaço full */
+/* Faz com que o main ocupe espaço completo */
 main {
   display: flex;
   width: 100%;
